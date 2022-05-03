@@ -1,0 +1,14 @@
+h2{
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+}
+.header{
+   height: 100px;
+   font-family:sans-serif; 
+   background-color: #FF6363;
+   margin: 0;
+   text-align: center;
+   padding-top: 20px;
+   color:white;
+   font-size: 40px;
+}
