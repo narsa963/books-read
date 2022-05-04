@@ -36,7 +36,9 @@ const MainPage =(props)=>{
           <h2 >Read</h2> 
           <Books books={readBooks} />
           </div>
+          <div className="search-link">
           <NavLink to='search'>+</NavLink>
+          </div>
         </div>
      </Fragment>
  )

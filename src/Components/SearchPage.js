@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Books from "./Books";
+import Books from "./Books"
 
 const SearchPage= (props)=>{
     const [searchBook, setSearchBook]=useState('');
@@ -37,10 +37,11 @@ const SearchPage= (props)=>{
     return(
      <div>
        <input
-       onChange={searchHandler} 
-       type='text' 
-       placeholder="text"  
-       value={searchBook}   
+         className="search-bar"
+        onChange={searchHandler} 
+        type='text' 
+        placeholder="search book"  
+        value={searchBook}   
        />
      <button onClick={submitHandler}>Submit</button>
      <Books books={resultBooks} />

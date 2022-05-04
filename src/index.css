@@ -1,9 +1,47 @@
 body {
 background-color:#6FDFDF;
+line-height: 1.5;
+}
+
+.book-rack{
+  display: inline-block;
+  margin-left: 0;
+  height: 300px;
+  width: 250px;
+  padding: 5px;
+  text-align:justify;
+   
 }
 .book-grid{
   display:block;
   
 }
+.select-option{
+  background-color: green;
+ 
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-image: url('./Icons/drop-down.svg');
+  background-repeat: 'no-repect';
+  background-position: center;
 
+}
+
+.content{
+  text-align:left;
+  size: 3px;
+  
+}
+
+.search-bar{
+  box-sizing: border-box;
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin-left: 0;
+}
 
