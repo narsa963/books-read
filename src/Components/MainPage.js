@@ -24,17 +24,17 @@ const MainPage =(props)=>{
           
           <div>
             <h2 className="book-header">Currentely Read</h2>
-            <Books books={currentlyReadingBooks} />
+            <Books books={currentlyReadingBooks}  updateShelf={props.onFilter} />
            
           </div>
           <div>
            <h2> Want To Read</h2>
-           <Books books={wantToReadBooks} />
+           <Books books={wantToReadBooks}  updateShelf={props.onFilter}/>
            
           </div>
           <div>
           <h2 >Read</h2> 
-          <Books books={readBooks} />
+          <Books books={readBooks}  updateShelf={props.onFilter}/>
           </div>
           <div className="search-link">
           <NavLink to='search'>+</NavLink>

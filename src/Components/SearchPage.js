@@ -43,7 +43,7 @@ const SearchPage= (props)=>{
         placeholder="search book"  
         value={searchBook}   
        />
-     <button onClick={submitHandler}>Submit</button>
+     <button className="search-submit" onClick={submitHandler}>Submit</button>
      <Books books={resultBooks} />
 
     </div>
